@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+}
+.Box {
+    height: 112px;
+    width: 100%;
+    background-color: #3399CC;
+}
+.Head {
+    color: #FFFFFF;
+    padding-left: 2%;
+    font-family: system-ui;
+    font-weight: 100;
+    font-size: 50px;
+    margin: auto;
+    padding-top: 21px;
+}
+.NavBar {
+    background-color: #333333;
+}
+.NavBar  ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 33px;
+    /* margin-top: 9px; */
+}
+.NavBar  ul a {
+    padding-right: 37px;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.Body h4 {
+    padding-left: 31px;
+    font-family: system-ui;
+}
+.Body {
+    display: flex;
+}
+.personalInformation {
+    padding-right: 32px;
+}
+.mainform {
+    margin-top: 24px;
+    border: 1px solid grey;
+    width: 50%;
+    height: 535px;
+    box-shadow: 0px 0px 17px 3px #333333;
+    margin-left: 10%;
+}
+.Contents {
+    height: 100%;
+    width: 128%;
+    margin-left: 30px;
+    border: 1px solid grey;
+    /* overflow: scroll; */
+    /* display: none; */
+}
+.Contents ul {
+    border-bottom: 1px solid grey;
+    margin: 0px;
+}
+.Contents ul li {
+    list-style-type: none;
+    font-family: system-ui;
+    font-weight: 100;
+}
+.Contents ul li h2 {
+    font-family: system-ui;
+    font-weight: 400;
+    margin: auto;
+}
+form {
+    padding-left: 30px;
+}
+p {
+    margin-top: 16px;
+    margin-bottom: 2px;
+}
+.mob-number {
+    display: flex;
+}
+.mob-number div:last-child {
+    padding-left: 10px;
+}
+input {
+    width: 80%;
+    height: 30px;
+}
+.mobile {
+    height: 30px;
+}
+.landline{
+    padding-left: 70%;
+}
+#mob {
+    width: 160%;
+}
+#tel {
+    width: 167%;
+    margin-left: 70%;
+}
+#address {
+    padding-bottom: 38px;
+}
+.btn {
+    background-color: #468C00;
+    color: white;
+    margin-top: 36px;
+    width: 11%;
+    height: 37px;
+    float: right;
+    margin-right: 73px;
+}
+.showInformation {
+    margin-top: 40px;
+}
+.viewInformation {
+    list-style-type: none;
+    margin-left: 4%;
+    margin-top: 24px;
+    width: 237px;
+}
+.viewInformation li:nth-child(2) {
+    padding-bottom: 20px;
+}
+.viewInformation li:nth-child(4) {
+    padding-bottom: 20px;
+}
+.viewInformation li:nth-child(5) {
+    padding-bottom: 20px;
+}
+.addressList{
+    margin-left: 59px;
+}
+.Address li {
+    margin-left: 59px;
+}
+.editOperation {
+    list-style-type: none;
+    display: inline-flex;
+}
+.editOperation img {
+    height: 17px;
+}
+.editOperation li:last-child {
+    margin-left: 10px;
+}
+.editOperation li a {
+    text-decoration: none;
+    color: #383838;
+}
+.ContentsInformation ul {
+    cursor: pointer;
+
+}
+.changeData{
+    padding-left: 10%;
+    padding-top: 32px;
+}
+.NavBar {
+    display: flex; /* sets the container to use flexbox */
+    justify-content: space-between; /* aligns items at opposite ends of the container */
+    align-items: center; /* centers items vertically within the container */
+    }
+    
+    .NavBar img {
+    margin-left: auto; 
+    padding-right: 10px;/* pushes the image to the right */
+    }
+
+    .viewInformation li h2{
+        margin-top: 0px;
+    }

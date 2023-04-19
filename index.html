@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="Box">
+            <h1 class="Head">Address Book</h1>
+        </div>
+        <nav class="NavBar">
+            <ul>
+                <li><a href=""><b>HOME</b></a></li>
+                <li><a href="#" id="add"><b>+ADD</b></a></li>
+            </ul>
+            <div class="blog-img"><img src="blog-icon.png" alt=""></div>
+        </nav>
+    </header>
+
+    <div class="Body">
+        <div class="personalInformation">
+            <h4>CONTACTS</h4>
+            <div class="Contents">
+                <div class="ContentsInformation"> </div>
+            </div>
+        </div>
+
+        <div class="mainform">
+            <form action="">
+                <p> <b>Name</b></p><input type="text" id="name">
+                <p><b>Email</b></p><input type="email" id="email">
+                <div class="mob-number">
+                    <div>
+                        <p><b>Mobile</b></p><input type="text" id="mob" class="mobile">
+                    </div>
+                    <div>
+                        <p><b class="landline">Landline</b></p><input type="tel" id="tel" class="mobile">
+                    </div>
+                </div>
+
+                <p><b>Website</b></p><input type="text" id="website">
+                <p><b>Address</b></p> <textarea id="address" rows="6" cols="78"></textarea>
+                <div><button class="btn">Add</button></div>
+            </form>
+        </div>
+       
+            <ul class="viewInformation">
+                <li>
+                    <h2></h2>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+       
+        <div class="showInformation">
+            <ul class="editOperation">
+                <li><img src="Edit-icon.png" alt=""></li>
+                <li><a href="#" id="edit">EDIT</a></li>
+            </ul>
+        </div>
+        <div class="showInformation">
+            <ul class="editOperation">
+                <li><img src="delete1.png"> </li>
+                <li><a href="#" id="delete">DELETE</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
