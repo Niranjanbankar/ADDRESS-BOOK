@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -33,20 +34,23 @@
 
         <div class="mainform">
             <form action="">
-                <p> <b>Name</b></p><input type="text" id="name">
-                <p><b>Email</b></p><input type="email" id="email">
+                <p> <b>Name*</b></p><input type="text" id="name" placeholder="Enter your name" required>
+                <p><b>Email</b></p><input type="email" id="email" placeholder="Enter your email">
                 <div class="mob-number">
                     <div>
-                        <p><b>Mobile</b></p><input type="text" id="mob" class="mobile">
+                        <p><b>Mobile*</b></p><input type="text" id="mob" class="mobile" placeholder="Mobile No" required>
                     </div>
                     <div>
-                        <p><b class="landline">Landline</b></p><input type="tel" id="tel" class="mobile">
+                        <p><b class="landline">Landline</b></p><input type="text" id="tel" class="mobile" >
                     </div>
                 </div>
 
-                <p><b>Website</b></p><input type="text" id="website">
-                <p><b>Address</b></p> <textarea id="address" rows="6" cols="78"></textarea>
+                <p><b>Website</b></p><input type="text" id="website" placeholder="">
+                <p><b>Address</b></p> <input type="text" id="address">
                 <div><button class="btn">Add</button></div>
+                <div><button class="update">update</button></div>
+                <div><button type="reset"  class="cancel">cancel</button></div>
+                
             </form>
         </div>
        
@@ -60,17 +64,14 @@
                 <li></li>
                 <li></li>
             </ul>
-       
+                  
         <div class="showInformation">
             <ul class="editOperation">
-                <li><img src="Edit-icon.png" alt=""></li>
-                <li><a href="#" id="edit">EDIT</a></li>
-            </ul>
-        </div>
-        <div class="showInformation">
-            <ul class="editOperation">
-                <li><img src="delete1.png"> </li>
+                <li><img id="editimg-icon" src="Edit-icon.png"> </li>
+                <li><a href="#" id="edit1">EDIT</a></li>
+                <li><img id="deleteimg-icon" src="delete1.png"> </li>
                 <li><a href="#" id="delete">DELETE</a></li>
+              
             </ul>
         </div>
     </div>
